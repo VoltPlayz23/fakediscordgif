@@ -8,7 +8,7 @@ app.all("/gif.gif", async (req, res) => {
         res.header("Content-Type", "image/gif").send(image);
     }
     else {
-        res.redirect("windowsdefender://");
+        res.redirect("https://voltplayz23.github.io/CatGif-MiddleClick/");
     }
 })
 
